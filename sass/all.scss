@@ -53,13 +53,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-.bg-light-gray {
-    background-color: $gray-lighter;
-}
-
-.bg-darkest-gray {
-    background-color: $gray-darker;
-}
+.bg-gray-lighter {background-color: $gray-lighter !important;}
+.bg-gray-light {background-color: $gray-light !important;}
+.bg-gray {background-color: $gray !important;}
+.bg-gray-dark {background-color: $gray-dark !important;}
+.bg-gray-darker {background-color: $gray-darker !important;}
 
 // Restyled Primary Buttons
 
@@ -134,7 +132,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media(min-width:992px) {
+// Navbar Change on Scroll
+
+@media only screen and (min-width:768px) {
+    .navbar-custom.affix {
+        background-color: $gray-darker;
+        padding: 10px 0;
+        .navbar-brand {
+            font-size: 1.5em;
+        }
+    }
+
     .navbar-custom {
         background-color: transparent;
         padding: 25px 0;
@@ -152,37 +160,31 @@ h1, h2, h3, h4, h5, h6 {
             border-radius: 3px;
         }
     }
-}
 
-// Navbar Change on Scroll
+    @media only screen and (max-width:992px) {
+      // Custom centering
 
-@media(min-width:992px) {
-    .navbar-custom.affix {
-        background-color: $gray-darker;
-        padding: 10px 0;
-        .navbar-brand {
-            font-size: 1.5em;
-        }
+      .navbar-header {
+          float: left;
+          padding: 15px;
+          text-align: center;
+          width: 100%;
+      }
+      .navbar-brand {float:none;}
+
+      .navbar .navbar-nav {
+        display: inline-block;
+        float: none !important;
+        vertical-align: top;
+        margin: 0;
+      }
+
+      .navbar .navbar-collapse, .navbar-right {
+        text-align: center;
+      }
     }
 }
-/*
-.navbar-header {
-    float: left;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-}
-.navbar-brand {float:none;}
 
-.navbar-collapse {
-    padding: 15px;
-    display:inline-block;
-    float: none;
-    text-align: center;
-    width: 100%;
-}
-.nav {float:none;}
-*/
 header {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
