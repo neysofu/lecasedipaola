@@ -186,9 +186,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url('../img/venice/breakfast.jpg');
+    @media only screen and (max-width: 576px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-576.jpg');}
+    @media only screen and (max-width: 768px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-768.jpg');}
+    @media only screen and (max-width: 992px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-992.jpg');}
+    @media only screen and (max-width: 1920px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-1920.jpg');}
+    @media only screen and (min-width: 1921px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast.jpg');}
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
