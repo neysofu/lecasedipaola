@@ -540,15 +540,17 @@ body {
     webkit-tap-highlight-color: $theme-primary;
 }
 
-.map-container {
-    width: 100%;
-    iframe{
-        width: 100%;
-        display: block;
-        pointer-events: none;
-        position: relative; /* IE needs a position other than static */
-    }
-    iframe.clicked {
-        pointer-events: auto;
+@media only screen and (min-width:992px) {
+    .map-container {
+      width: 100%;
+      iframe{
+          width: 100%;
+          display: block;
+          pointer-events: none;
+          position: relative; /* IE needs a position other than static */
+      }
+      iframe.clicked {
+          pointer-events: auto;
+      }
     }
 }
