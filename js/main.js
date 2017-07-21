@@ -30,4 +30,11 @@
     }
   })
 
+  // Disable scrolling zoom
+  $('.map-container')
+	.click(function(){
+			$(this).find('iframe').addClass('clicked')})
+	.mouseleave(function(){
+			$(this).find('iframe').removeClass('clicked')});
+
 })(jQuery); // End of use strict
