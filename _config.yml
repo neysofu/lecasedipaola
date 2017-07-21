@@ -1,5 +1,5 @@
-baseurl: "/lecasedipaola"
-url: "http://neysofu.github.io/"
+baseurl: "lecasedipaola"
+url: "http://neysofu.github.io"
 
 plugins:
   - jekyll-redirect-from
