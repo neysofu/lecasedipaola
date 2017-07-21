@@ -5,3 +5,6 @@ url: "http://neysofu.github.io"
 api_keys:
   ganalytics: "UA-102888072-1"
   gmaps: "AIzaSyB3PiAr1ZgIZFjq-qnfLMD1CuJk-f9_ZrY"
+
+plugin:
+  - jekyll-redirect-from
