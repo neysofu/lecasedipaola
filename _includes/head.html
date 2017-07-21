@@ -6,8 +6,7 @@
   <meta name="description" content="{{ translate page.description }}">
   <meta name="author" content="Filippo Costa">
 
-  <title>{{ translations.title[page.lang] }}</title>
-
+  <title>{{ page.title }}</title>
   <!-- Bootstrap Core CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Theme CSS -->
@@ -27,7 +26,7 @@
   <!-- Google Analytics -->
   <script>
   window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-102888072-1', 'auto');
+  ga('create', '{{ site.api_keys.ganalytics }}', 'auto');
   ga('send', 'pageview');
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
