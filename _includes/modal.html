@@ -1,0 +1,22 @@
+{% for photo in site.data.photos %}
+<div class="gallery-modal modal fade" id="gallery-modal-{{ photo[0] }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <i class="fa fa-times fa-4x"></i>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ photo[1].caption[page.lang] }}</h2>
+              <img class="img-responsive img-centered" src="{{ photo[1].source }}">
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> {{ site.data.translations.close[page.lang]] }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

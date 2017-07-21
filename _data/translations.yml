@@ -1,0 +1,11 @@
+close:
+  it: "Chiudi"
+  en: "Close"
+
+tell-me-more:
+  it: "Scopri di più"
+  en: "Tell me more"
+
+location:
+  it: "Posizione"
+  en: "Location"

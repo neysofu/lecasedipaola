@@ -1,0 +1,26 @@
+<section id="prices" class="bg-gray-lighter">
+    <div class="container">
+      <div class="row form-group">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h2>{{ site.data.sections.prices.name[page.lang] }}</h2>
+          <p class="text-muted text-justify">
+            {{ site.data.sections.prices.introduction[page.lang] }}
+          </p>
+        </div>
+      </div>
+      <div class="row text-center form-group">
+        <div class="col-sm-6">
+          <a href="#venice" class="page-scroll">
+            <h4>{{ site.data.sections.venice.name[page.lang] }}</h4>
+          </a>
+          {{ site.data.sections.prices.venice[page.lang] }}
+        </div>
+        <div class="col-sm-6">
+          <a href="#vicenza" class="page-scroll">
+            <h4>Vicenza</h4>
+          </a>
+          {{ site.data.sections.prices.vicenza[page.lang] }}
+        </div>
+      </div>
+    </div>
+  </section>

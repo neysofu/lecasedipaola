@@ -1,0 +1,80 @@
+<section id="vicenza">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center form-group">
+        <h2 class="section-heading">Vicenza</h2>
+        <h3>{{ site.data.sections.vicenza.house }}</h3>
+        <p class="text-muted text-justify">
+          {{ site.data.sections.vicenza.text-1a[page.lang] }}
+        </p>
+        <p class="text-muted text-justify">
+          {{ site.data.sections.vicenza.text-1b[page.lang] }}
+        </p>
+      </div>
+    </div>
+    <div class="row gallery">
+      <div class="col-md-8 col-md-offset-2">
+        {% for photo in site.data.photos %} {% assign n = photo[0] | plus: 0 %} {% if n > 100 and n < 150 %}
+        <div class="col-xs-6 gallery-item">
+          <a href="#gallery-modal-{{ photo[0] }}" class="gallery-link" data-toggle="modal">
+            <div class="gallery-hover">
+              <div class="gallery-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="{{ photo[1].source }}" class="img-responsive" style="height:220px;" alt="">
+          </a>
+          <div class="gallery-caption bg-gray-lighter">
+            <h4>{{ photo[1].caption[page.lang] }}</h4>
+          </div>
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <p class="text-muted text-justify">
+          {{ site.data.sections.vicenza.text-2[page.lang] }}
+        </p>
+      </div>
+    </div>
+    <div class="row gallery">
+      <div class="col-md-8 col-md-offset-2">
+        {% for photo in site.data.photos %} {% assign n = photo[0] | plus: 0 %} {% if n > 150 and n < 200 %}
+        <div class="col-xs-6 gallery-item">
+          <a href="#gallery-modal-{{ photo[0] }}" class="gallery-link" data-toggle="modal">
+            <div class="gallery-hover">
+              <div class="gallery-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="{{ photo[1].source }}" class="img-responsive" style="height:220px;" alt="">
+          </a>
+          <div class="gallery-caption bg-gray-lighter">
+            <h4>{{ photo[1].caption[page.lang] }}</h4>
+          </div>
+        </div>
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <p class="text-muted text-justify">
+          {{ site.data.sections.vicenza.text-3[page.lang] }}
+        </p>
+        <hr>
+        <h3>{{ site.data.translations.location[page.lang] }}</h3>
+        <p class="text-muted text-justify">
+          {{ site.data.sections.vicenza.text-4a[page.lang] }}
+        </p>
+        <div class="map-container">
+          <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB3PiAr1ZgIZFjq-qnfLMD1CuJk-f9_ZrY&q=VI+tre+camini+36040+VI" allowfullscreen>
+          </iframe>
+        </div>
+        <p class="text-muted text-justify">
+          {{ site.data.sections.vicenza.text-4b[page.lang] }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
