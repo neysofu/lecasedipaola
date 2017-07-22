@@ -186,12 +186,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    @media only screen and (max-width: 576px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-576.jpg');}
-    @media only screen and (max-width: 768px) and (min-width: 576px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-768.jpg');}
-    @media only screen and (max-width: 992px) and (min-width: 768px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-992.jpg');}
-    @media only screen and (max-width: 1440px) and (min-width: 992px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-1440.jpg');}
-    @media only screen and (max-width: 1920px) and (min-width: 1440px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast-1920.jpg');}
-    @media only screen and (min-width: 1921px) {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/venice/breakfast.jpg');}
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -428,38 +422,35 @@ footer {
     }
 }
 
-// Social Buttons
-
-ul.social-buttons {
-    margin-bottom: 0;
-    li {
-        a {
-            display: block;
-            background-color: $gray-darker;
-            height: 40px;
-            width: 40px;
-            border-radius: 100%;
-            font-size: 20px;
-            line-height: 40px;
-            color: white;
-            outline: none;
-            -webkit-transition: all 0.3s;
-            -moz-transition: all 0.3s;
-            transition: all 0.3s;
-            &:hover,
-            &:focus,
-            &:active {
-                background-color: $theme-primary;
-            }
-        }
-    }
-}
-
 .btn:focus,
 .btn:active,
 .btn.active,
 .btn:active:focus {
     outline: none;
+}
+
+// Highlight Color Customization
+
+::-moz-selection {
+    text-shadow: none;
+    background: $theme-primary;
+}
+
+::selection {
+    text-shadow: none;
+    background: $theme-primary;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+
+body {
+    webkit-tap-highlight-color: $theme-primary;
 }
 
 .gallery-modal {
@@ -516,41 +507,29 @@ ul.social-buttons {
     }
 }
 
-// Highlight Color Customization
+// Social Buttons
 
-::-moz-selection {
-    text-shadow: none;
-    background: $theme-primary;
-}
-
-::selection {
-    text-shadow: none;
-    background: $theme-primary;
-}
-
-img::selection {
-    background: transparent;
-}
-
-img::-moz-selection {
-    background: transparent;
-}
-
-body {
-    webkit-tap-highlight-color: $theme-primary;
-}
-
-@media only screen and (min-width:992px) {
-    .map-container {
-      width: 100%;
-      iframe{
-          width: 100%;
-          display: block;
-          pointer-events: none;
-          position: relative; /* IE needs a position other than static */
-      }
-      iframe.clicked {
-          pointer-events: auto;
-      }
+ul.social-buttons {
+    margin-bottom: 0;
+    li {
+        a {
+            display: block;
+            background-color: $gray-darker;
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+            font-size: 20px;
+            line-height: 40px;
+            color: white;
+            outline: none;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: $theme-primary;
+            }
+        }
     }
 }
