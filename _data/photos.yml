@@ -6,8 +6,8 @@
 2:
   source: "img/venice/table.jpg"
   caption:
-    it: "Pausa té"
-    en: "Afternoon Tea"
+    it: "Il soggiorno"
+    en: "The sitting room"
 3:
   source: "img/venice/bedroom1.jpg"
   caption:
@@ -32,8 +32,8 @@
 53:
   source: "img/venice/bedroom.jpg"
   caption:
-    it: "L'altra camera"
-    en: "The other bedroom"
+    it: "L'altra camera doppia"
+    en: "The other double bedroom"
 
 101:
   source: "img/vicenza/garden.jpg"

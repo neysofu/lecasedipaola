@@ -69,13 +69,13 @@ vicenza:
 
 prices:
   name:
-    it: Servizi e prezzi
-    en: Services and prices
+    it: Servizi
+    en: Services
   introduction:
     it: >
       I prezzi variano sensibilmente in base al tipo di servizi richiesti, oltre che alla lunghezza del soggiorno e al periodo dell'anno. <a href="#contact" class="page-scroll">Contatta la signora Paola</a> per informazioni sui prezzi. <strong class="text-nowrap">N.B.</strong> una prima colazione continentale è sempre inclusa.
     en: >
-      Prices can sensibly change according to the type of services requested, besides the length of your stay and the period in the year. <a href="#contact" class="page-scroll">Contact Paola</a> to inquire about the prices.</a> <strong class="text-nowrap">N.B.</strong> continental breakfast if always included.
+      Prices can sensibly change according to the type of services requested, besides the length of your stay and the period in the year. <a href="#contact" class="page-scroll">Contact Paola</a> to inquire about the prices.</a> <strong class="text-nowrap">N.B.</strong> continental breakfast is always included.
   venice:
     it: >
       <p class="text-muted text-justify">
