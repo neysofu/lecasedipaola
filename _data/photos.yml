@@ -1,58 +1,58 @@
 1:
-  source: "/assets/img/venice/library.jpg"
+  source: "/img/venice/library.jpg"
   caption:
     it: "Il salone"
     en: "The living room"
 2:
-  source: "/assets/img/venice/table.jpg"
+  source: "/img/venice/table.jpg"
   caption:
     it: "Il soggiorno"
     en: "The sitting room"
 3:
-  source: "/assets/img/venice/bedroom1.jpg"
+  source: "/img/venice/bedroom1.jpg"
   caption:
     it: "La camera doppia"
     en: "The double bedroom"
 4:
-  source: "/assets/img/venice/breakfast-450.jpg"
+  source: "/img/venice/breakfast-450.jpg"
   caption:
     it: "La colazione"
     en: "Breakfast"
 
 51:
-  source: "/assets/img/venice/bath.jpg"
+  source: "/img/venice/bath.jpg"
   caption:
     it: "Il bagno"
     en: "The bathroom"
 52:
-  source: "/assets/img/venice/hallway.jpg"
+  source: "/img/venice/hallway.jpg"
   caption:
     it: "Il corridoio"
     en: "The hallway"
 53:
-  source: "/assets/img/venice/bedroom.jpg"
+  source: "/img/venice/bedroom.jpg"
   caption:
     it: "L'altra camera doppia"
     en: "The other double bedroom"
 
 101:
-  source: "/assets/img/vicenza/garden.jpg"
+  source: "/img/vicenza/garden.jpg"
   caption:
     it: "Il giardino"
     en: "The garden"
 102:
-  source: "/assets/img/vicenza/air.jpg"
+  source: "/img/vicenza/air.jpg"
   caption:
     it: "Visione aerea"
     en: "Aerial view"
 
 151:
-  source: "/assets/img/vicenza/pool.jpg"
+  source: "/img/vicenza/pool.jpg"
   caption:
     it: La piscina
     en: The pool
 152:
-  source: "/assets/img/vicenza/pool-at-night.jpg"
+  source: "/img/vicenza/pool-at-night.jpg"
   caption:
     it: La piscina di notte
     en: The pool by night
