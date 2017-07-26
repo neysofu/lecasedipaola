@@ -1,5 +1,14 @@
-url: "http://neysofu.github.io"
+url: "https://www.lecasedipaola.it"
+
+email: bedbre@katamail.com
+phone:
+  a: "+39"
+  b: "349"
+  c: "5318909"
 
 api_keys:
   ganalytics: "UA-102888072-1"
   gmaps: "AIzaSyB3PiAr1ZgIZFjq-qnfLMD1CuJk-f9_ZrY"
+
+plugins:
+  - jekyll-email-protect

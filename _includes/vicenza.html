@@ -16,7 +16,7 @@
       <div class="col-md-8 col-md-offset-2">
         {% for photo in site.data.photos %} {% assign n = photo[0] | plus: 0 %} {% if n > 100 and n < 150 %}
         <div class="col-xs-6 gallery-item">
-          <a href="#gallery-modal-{{ photo[0] }}" class="gallery-link" data-toggle="modal">
+          <a href="#gallery-modal" class="gallery-link" data-toggle="modal">
             <div class="gallery-hover">
               <div class="gallery-hover-content">
                 <i class="fa fa-plus fa-3x"></i>
@@ -42,7 +42,7 @@
       <div class="col-md-8 col-md-offset-2">
         {% for photo in site.data.photos %} {% assign n = photo[0] | plus: 0 %} {% if n > 150 and n < 200 %}
         <div class="col-xs-6 gallery-item">
-          <a href="#gallery-modal-{{ photo[0] }}" class="gallery-link" data-toggle="modal">
+          <a href="#gallery-modal" class="gallery-link" data-toggle="modal">
             <div class="gallery-hover">
               <div class="gallery-hover-content">
                 <i class="fa fa-plus fa-3x"></i>

@@ -32,9 +32,17 @@
 
   // Disable scrolling zoom
   $('.map-container')
-	.click(function(){
-			$(this).find('iframe').addClass('clicked')})
-	.mouseleave(function(){
-			$(this).find('iframe').removeClass('clicked')});
+    .click(function(){
+      $(this).find('iframe').addClass('clicked')
+    })
+    .mouseleave(function(){
+      $(this).find('iframe').removeClass('clicked')
+    });
+
+  $('a.gallery-link').click(function(){
+    var modal_body = $('#gallery-modal').find('.modal-body');
+    modal_body.find('h2').text($(this).next().find('h4').text());
+    modal_body.find('img').attr('src', $(this).find('img').attr('src'));
+  });
 
 })(jQuery); // End of use strict
