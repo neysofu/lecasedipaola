@@ -3,12 +3,12 @@
     <div class="row form-group">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ site.data.sections.contact.name[page.lang] }}</h2>
-        <a href="mailto:{{ site.email | encode_email }}">
+        <a href="mailto:{{ site.email }}">
           <p style="color:white;">
             <code><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.email }}</code>
           <p>
         </a>
-        <a href="tel:{{ site.phone.a | encode_email }}{{ site.phone.b | encode_email }}{{ site.phone.c | encode_email }}">
+        <a href="tel:{{ site.phone.a }}{{ site.phone.b }}{{ site.phone.c }}">
           <p style="color:white;">
             <code><i class="fa fa-phone" aria-hidden="true"></i> ({{ site.phone.a }}) {{ site.phone.b }} {{ site.phone.c }}</code>
           <p>

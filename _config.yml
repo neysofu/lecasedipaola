@@ -12,5 +12,4 @@ api_keys:
   gmaps: "AIzaSyB3PiAr1ZgIZFjq-qnfLMD1CuJk-f9_ZrY"
 
 gems:
-  - jekyll-email-protect
   - jekyll-sitemap
