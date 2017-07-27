@@ -5,3 +5,4 @@ git_source(:github) {|repo_name| "https://github.com/neysofu/lecasedipaola" }
 
 gem 'jekyll'
 gem 'jekyll-email-protect'
+gem 'jekyll-sitemap'

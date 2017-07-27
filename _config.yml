@@ -13,3 +13,4 @@ api_keys:
 
 plugins:
   - jekyll-email-protect
+  - jekyll-sitemap
