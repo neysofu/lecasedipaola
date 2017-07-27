@@ -12,5 +12,6 @@ api_keys:
   gmaps: "AIzaSyB3PiAr1ZgIZFjq-qnfLMD1CuJk-f9_ZrY"
 
 plugins:
+  - github-pages
   - jekyll-email-protect
   - jekyll-sitemap
