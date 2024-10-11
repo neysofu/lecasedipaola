@@ -4,6 +4,7 @@
       <div class="col-md-8 col-md-offset-2 text-center form-group">
         <h2 class="section-heading">{{ site.data.sections.venice.name[page.lang] }}</h2>
         <h3>{{ site.data.sections.venice.house }}</h3>
+        <h5>(CIN: {{ site.data.sections.venice.cin }})</h5>
         <p class="text-muted text-justify">
           {{ site.data.sections.venice.text-1a[page.lang] }}
         </p>
@@ -66,7 +67,9 @@
         {{ site.data.sections.venice.text-4a[page.lang] }}
       </p>
       <div class="map-container">
-        <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key={{ site.api_keys.gmaps }}&q=B%26B+Palazzo+Morosini+Dalla+Sbarra" allowfullscreen>
+        <iframe width="100%" height="250" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key={{ site.api_keys.gmaps }}&q=B%26B+Palazzo+Morosini+Dalla+Sbarra"
+          allowfullscreen>
         </iframe>
       </div>
       <p class="text-muted text-justify">

@@ -14,6 +14,7 @@ venice:
     it: "Venezia"
     en: "Venice"
   house: Palazzo Morosini dalla Sbarra
+  cin: IT027042C1FGL8C77B
   text-1a:
     it: Se vi attira entrare in un ambiente veneziano non costruito ad arte, ma spontaneo in quanto espressione di un vissuto di più generazioni, la proprietaria sarà ben lieta di accogliervi in questo palazzo storico del ‘500, dove il vostro sonno sarà avvolto dal silenzio magico di questa città, dove aprirete la vostra giornata sedendo ad una tavola sulla quale di recente ci saranno solo le vivande, poiché tovagliati, porcellane, argenti, sono tutti d’epoca.
     en: >
@@ -42,6 +43,7 @@ venice:
 
 vicenza:
   house: I tre camini
+  cin: IT024123C2HI4LOHVY
   text-1a:
     it: Se vi incuriosisce conoscere i luoghi di vacanza degli antichi nobili veneziani, potreste venire a scoprire le Ville Palladiane del vicentino, che al pari di quelle del Brenta, o dei castelli sulla Loira o sul Reno, sono meta di visitatori da tutto il mondo. La seconda casa di Paola, immersa in un dolce paesaggio collinare, vi offre la possibilità di un completo relax nel verde e nel silenzio. Un giardino fiorito, colazioni all'aperto, una grande piscina, il fascino di un tipico casale antico, un punto di partenza strategico per tutte le ville e per le città di Vicenza, Padova e Verona, distanti al massimo un'ora di auto.
     en: >

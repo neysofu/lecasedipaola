@@ -9,7 +9,7 @@
     it: "Il soggiorno"
     en: "The sitting room"
 3:
-  source: "/img/venice/bedroom1.jpg"
+  source: "/img/venice/bedroom.jpg"
   caption:
     it: "La camera doppia"
     en: "The double bedroom"
@@ -29,11 +29,6 @@
   caption:
     it: "Il corridoio"
     en: "The hallway"
-53:
-  source: "/img/venice/bedroom.jpg"
-  caption:
-    it: "L'altra camera doppia"
-    en: "The other double bedroom"
 
 101:
   source: "/img/vicenza/garden.jpg"
