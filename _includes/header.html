@@ -3,6 +3,14 @@
     <div class="intro-text">
       <div class="intro-lead-in">Bed &amp; Breakfast and vacation rental</div>
       <div class="intro-heading">{{ page.title }}</div>
+      <div
+        style="background-color: #f8d7da; color: #721c24; padding: 15px; margin: 20px 0; border-radius: 5px; font-weight: bold; font-size: 18px;">
+        {% if page.lang == 'it' %}
+        Il B&B è attualmente inattivo e non accetta nuove prenotazioni
+        {% else %}
+        The B&B is currently inactive, and not taking any new bookings
+        {% endif %}
+      </div>
       <a href="#about" class="page-scroll btn btn-xl">{{ site.data.translations.tell-me-more[page.lang] }}</a>
     </div>
   </div>
